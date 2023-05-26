@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: xx-large;
+    color: azure;
+}
+.h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+}
+.wrapper_modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(47, 79, 79, 0.43);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+container {
+    max-width: 920px;
+    width: 100%;
+    padding-top: 107px;
+    margin: 0 auto;
+    position: relative;
+    height: 479vh;
+}
+.box {
+    height: 73px;
+    border: 1px solid salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;  
+}
+/*top, left, right, botton*/
+/*static, relative, absolute*/
+.box_1 {
+    background-color: red;
+    position: sticky;
+    top: 0;
+    }
+.box_2 {
+    background-color: rgb(255, 170, 0);
+    /* position: absolute;  */
+    /*width: 523px;
+    height: 523px;
+    left: 37px;*/
+    } 
+.box_3 {
+    background-color: green;
+    position: relative;
+    /*right: 113px;
+    top: 641px;
+    z-index: -1;
+    /*header, который ничего не должно  перекрывать имеет z-index -99*/
+    }
+.box_4 {
+background-color: blue;
+position: sticky;
+/*width: 23%;*/
+left: 0;
+top: 0;
+}
+.box_5 {
+    background-color: purple;
+    }
+    /*header, main и footer должны оставаться строчными элементами*/
+    

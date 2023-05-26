@@ -1,0 +1,25 @@
+button {
+  width: 225px;
+  height: 225px;
+  border-radius: 25%;
+  border: none;
+  background-color: rgb(135, 200, 200);
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+body {
+  background-color: darkorange;
+}
+
+h1 {
+  color: rgb(55, 111, 43);
+}
+
+h2 {
+  color: rgb(129, 52, 52);
+}/*# sourceMappingURL=style.css.map */
