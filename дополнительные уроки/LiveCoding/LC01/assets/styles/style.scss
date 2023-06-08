@@ -15,11 +15,26 @@
     justify-content: center;
     text-align: center;
     box-shadow: 0px 24px 22px -27px rgba(81,53,84,1);
-    
+
   }
   h1{
     transition: 1s;
     cursor: pointer;
-  }  h1:hover {
+  }  
+  h1:hover {
     transform: scale(1.8);
   }
+
+  .wrapper-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    .form{
+      max-width: 500px;
+      width: 100%;
+      min-height: 400px;
+      border: 1px solid;
+    }
+  }
+  
